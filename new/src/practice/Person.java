@@ -4,11 +4,11 @@ public class Person {
 
     private static int count;
 
-    public Person(){
+    protected  Person(){
         count++;
     }
 
-    public static void getCount(){
+    protected  static void getCount(){
         System.out.println("Количество: " + count);
     }
 

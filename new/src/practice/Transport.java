@@ -27,8 +27,8 @@ public abstract class Transport {
     
     //абстрактные методы:
 
-    public abstract void moveObject(float speed);
-    public abstract boolean stopObject();
+    protected  abstract void moveObject(float speed);
+    protected  abstract boolean stopObject();
 
     //общие методы:
 
