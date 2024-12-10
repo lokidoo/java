@@ -8,6 +8,6 @@ public abstract class Animal {
         this.age = age;
     }
 
-    public void speak(){};
+    public abstract void speak();
 
 }

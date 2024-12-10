@@ -1,18 +1,10 @@
-## Getting Started
+Задача: "Фигуры"
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Создайте абстрактный класс Shape с:
+Абстрактным методом double getArea() (для вычисления площади),
+Абстрактным методом double getPerimeter() (для вычисления периметра).
+Создайте подклассы:
+Circle с полем radius (радиус),
+Rectangle с полями width (ширина) и height (высота).
+Реализуйте методы для каждого подкласса.
+В тестовом классе создайте массив фигур, добавьте в него круги и прямоугольники, и выведите их площади и периметры.
