@@ -1,18 +1,11 @@
-## Getting Started
+Задача: "Класс Person"
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Создайте класс Person с полями:
+name (имя),
+age (возраст),
+email (электронная почта).
+Добавьте геттеры и сеттеры с проверкой:
+Возраст должен быть от 0 до 120.
+Email должен содержать символ @.
+Реализуйте метод void printInfo() для вывода информации о человеке.
+В тестовом классе создайте несколько объектов Person и продемонстрируйте работу методов.
