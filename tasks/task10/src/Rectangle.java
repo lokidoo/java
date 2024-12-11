@@ -23,4 +23,8 @@ public class Rectangle extends Shape {
         return (width + hight) * 2;
     }
 
+    public String toString(){
+        return "Прямоугольник, ширина: " + this.width + ", высота: " + this.hight;
+    }
+
 }

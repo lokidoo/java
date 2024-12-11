@@ -16,5 +16,6 @@ public class App {
             trans.move();   
             System.out.println("----------------------");
         }
+        System.out.println(vehicles.get(0));
     }
 }

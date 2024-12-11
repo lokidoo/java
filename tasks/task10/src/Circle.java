@@ -23,4 +23,7 @@ public class Circle extends Shape{
         return 2 * Math.PI * radius;
     }
 
+    public String toString(){
+        return "Круг, радиус: " + this.radius;
+    }
 }
